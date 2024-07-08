@@ -6,7 +6,7 @@ var ErrDivideByZero = errors.New("cannot divide by zero")
 
 func divide(dividend, divisor int) (int, error) {
 	if divisor == 0 {
-		// I am a comment
+		// i'm a comment
 		return 0, ErrDivideByZero
 	}
 
