@@ -6,8 +6,8 @@ import (
 )
 
 func TestDivide(t *testing.T) {
-	expected := 2
-	res, err := divide(4, 2)
+	expected := 1
+	res, err := divide(1, 1)
 	if err != nil {
 		t.Fatalf("expected no error, but got %s", err)
 	}

@@ -1,1 +1,5 @@
-{"Replace":{"div.go":"mutations/div.go"}}
+{
+    "Replace": {
+        "div.go": "mutations/div.go"
+    }
+}
