@@ -1,4 +1,4 @@
-# gophercon2024
+# GopherCon 2024
 
 Supporting material for my talk "Who Tests the Tests?" at Gophercon 2024. 
 
