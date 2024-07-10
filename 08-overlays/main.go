@@ -29,7 +29,7 @@ func main() {
 		log.Fatalln(err)
 	}
 
-	astutil.Apply(file, nil, reverseIfCond)
+	astutil.Apply(file, nil, changeBinaryOperator)
 
 	out, err := os.Create("mutations/" + filename)
 	if err != nil {

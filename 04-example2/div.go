@@ -9,5 +9,5 @@ func divide(dividend, divisor int) (int, error) {
 		return 0, ErrDivideByZero
 	}
 
-	return dividend / divisor, nil
+	return dividend * divisor, nil
 }

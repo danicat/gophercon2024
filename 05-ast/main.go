@@ -11,7 +11,7 @@ import (
 func main() {
 	filename := "div.go"
 	fset := token.NewFileSet()
-	file, err := parser.ParseFile(fset, filename, nil, 0)
+	file, err := parser.ParseFile(fset, filename, nil, parser.ParseComments)
 	if err != nil {
 		log.Fatalln(err)
 	}
